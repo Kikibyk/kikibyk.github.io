@@ -22,12 +22,14 @@ body {
      text-align: center;
 }
 .sub {
+     font-weight: 100;
      color: #64dcdc;
      letter-spacing: 0.4em;
      animation: glitch-skew 1s infinite linear alternate-reverse;
 }
 /* Our mixin positions a copy of our text directly on our existing text, while also setting content to the appropriate text set in the data-text attribute. */
 .glitch {
+     font-weight: 100;
      position: relative;
      color: white;
      font-size: 4em;
