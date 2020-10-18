@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100');
- html, body, h1 {
+html, body, h1 {
      padding: 0;
      margin: 0;
      font-family: 'Montserrat', sans-serif;
 }
- #site {
+body {
      background: #0a0a0a;
      height: 100vh;
      width: 100%;
@@ -14,24 +14,25 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     background: linear-gradient(rgba(10, 10, 10, .6), rgba(0, 0, 0, .9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px), url('https://wallpapercave.com/wp/wp4918883.jpg');
+     background: linear-gradient(rgba(10, 10, 10, .6), rgba(0, 0, 0, .9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px), url('https://wallpapercave.com/wp/wp4334662.jpg');
      background-size: cover;
      background-position: center;
      z-index: 1;
 }
- #wrapper {
+#wrapper {
      text-align: center;
 }
 .sub {
      color: #64dcdc;
      letter-spacing: 0.4em;
+     animation: glitch-skew 1s infinite linear alternate-reverse;
 }
 /* Our mixin positions a copy of our text directly on our existing text, while also setting content to the appropriate text set in the data-text attribute. */
 .glitch {
      position: relative;
      color: white;
      font-size: 4em;
-     letter-spacing: 0.5em;
+     letter-spacing: 0.4em;
     /* Animation provies a slight random skew. Check bottom of doc for more information on how to random skew. */
      animation: glitch-skew 1s infinite linear alternate-reverse;
 }
