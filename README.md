@@ -1,2 +1,1 @@
-# kikibyk.github.io
-Kikibyk's GitHub page
+Моя страничка на GitHub Page :3
